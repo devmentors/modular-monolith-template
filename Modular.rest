@@ -1,0 +1,16 @@
+@url = http://localhost:5000
+
+###
+GET {{url}}
+
+###
+GET {{url}}/first
+
+###
+GET {{url}}/second
+
+###
+GET {{url}}/third
+
+###
+GET {{url}}/users

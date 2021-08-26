@@ -1,0 +1,8 @@
+{
+  "second": {
+    "module": {
+      "name": "Second",
+      "enabled": true
+    }
+  }
+}

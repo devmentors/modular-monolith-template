@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\modular-framework\src\Modular.Infrastructure\Modular.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="module.third.json" />
+        <Content Include="module.third.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="module.third.development.json" />
+        <Content Include="module.third.development.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+</Project>

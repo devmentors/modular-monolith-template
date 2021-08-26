@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\First\Modular.Modules.First.Api\Modular.Modules.First.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Second\Modular.Modules.Second.Api\Modular.Modules.Second.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Third\Modular.Modules.Third.Api\Modular.Modules.Third.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Users\Modular.Modules.Users.Api\Modular.Modules.Users.Api.csproj" />
+    <ProjectReference Include="..\..\modular-framework\src\Modular.Abstractions\Modular.Abstractions.csproj" />
+    <ProjectReference Include="..\..\modular-framework\src\Modular.Infrastructure\Modular.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,3 @@
+[submodule "src/modular-framework"]
+	path = src/modular-framework
+	url = git@github.com:devmentors/modular-framework.git

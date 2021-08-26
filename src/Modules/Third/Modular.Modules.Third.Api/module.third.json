@@ -1,0 +1,8 @@
+{
+  "third": {
+    "module": {
+      "name": "Third",
+      "enabled": true
+    }
+  }
+}
